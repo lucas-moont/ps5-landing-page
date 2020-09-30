@@ -94,12 +94,54 @@ body{
 .power{
     display: flex;
     justify-content: center;
+    background-color: #FFF;
 }
 
 .power .container{
+    flex-direction: column ;
+    text-align: center;
+    align-items: center;
     margin-top: 30px;
 }
 
 .power .container img{
-    max-width: 100%;
+    max-width: 80%;
+}
+
+.power h3{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.power .container p{
+    font-size: 18px;
+    color: #1F1F1F;
+}
+
+.speed_holder {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px
+}
+
+.speed{
+    width: 40%;
+    text-align: center;
+}
+
+.speed img{
+    height: 120px;
+}
+
+.speed h3{
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+.container .speed p{
+    font-size: 14.3px;
+    word-spacing: 4px;
 }
