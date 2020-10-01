@@ -198,6 +198,7 @@ body{
     background-size: cover;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 #imersion .container{
@@ -242,4 +243,68 @@ body{
 
 #imersion .audio_tech p{
     text-align: left;
+}
+
+#dualSense{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+}
+
+#dualSense .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sense {
+    width: 650px;
+    margin-bottom: 60px;
+}
+
+.sense h1{
+    color: #000;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.sense_details{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.sense_details div{
+    width: 45%;
+    text-align: center;
+}
+
+.sense_details img {
+    height: 120px;
+}
+
+.sense_details h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.sense_details p{
+    font-size: 16px;
+}
+
+#dualSense a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #0072ce;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 80px;
 }
