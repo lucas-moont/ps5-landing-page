@@ -26,6 +26,10 @@ body{
 .container {
     display: flex;
     width: 930px;
+    font-size: 14px;
+}
+
+.banner .container{
     font-size: 40px;
 }
 
@@ -144,4 +148,52 @@ body{
 .container .speed p{
     font-size: 14.3px;
     word-spacing: 4px;
+}
+
+#games{
+    display: flex;
+    justify-content: center;
+    background-color: #d9dbee;
+    padding-bottom: 40px;
+}
+
+#games .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+#games .container h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.games_holder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.game {
+    width: 40%;
+}
+
+.game img{
+    max-width: 100%;
+}
+
+.game h6{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+#imersion {
+    height: 600px;
+    background-image: url(/img/imersion/spier-man-miles-morales-ps5.png);
+    background-position: center;
+    background-size: cover;
 }
