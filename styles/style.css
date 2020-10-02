@@ -8,19 +8,14 @@ body{
     font-family: 'Manrope', sans-serif;
 }
 
-.banner, .specifics{
-    display: flex;
-    justify-content: center;
-}
-
-.banner{
-    align-items: center;
-    color: white;
-    background-image: url(/img/background.jpg);
-    width: 100%;
-    height: 657px;
-    background-position: center;
+#banner{
+    background-image: url(/img/release/PlayStation-5-e-PS5-Digital-Edition-2020.png);
+    height: 700px;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .container {
@@ -29,19 +24,20 @@ body{
     font-size: 14px;
 }
 
-.banner .container{
+#banner .container{
+    justify-content: center;
+}
+
+#banner .container h1 {
+    width: 700px;
+    color: #000;
+    text-align: center;
     font-size: 40px;
 }
 
-.container_spacebw{
-    justify-content: space-between;
-    text-transform: capitalize;
-    font-family: 'Major Mono Display', monospace;
-}
-
-
-
 .specifics{
+    display: flex;
+    justify-content: center;
     background-image: url(/img/bks/horizon.png);
     background-size: cover;  
     background-position: center;
@@ -318,6 +314,7 @@ body{
 
 #buy img{
     width: 80%;
+    margin-bottom: 30px;
 }
 
 .typeHolder{
@@ -367,7 +364,8 @@ body{
 }
 
 #buy .console_holder h1{
-    font-size: 40px
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .console_holder a{
