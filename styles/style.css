@@ -248,7 +248,6 @@ body{
 #dualSense{
     display: flex;
     justify-content: center;
-    background-color: #FFF;
 }
 
 #dualSense .container {
@@ -307,4 +306,79 @@ body{
     text-decoration: none;
     font-size: 16px;
     margin-bottom: 80px;
+}
+
+#buy {
+    display: flex;
+    color: #000;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+#buy img{
+    width: 80%;
+}
+
+.typeHolder{
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+
+#buy .standard, #buy .digitalEdition{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.standard{
+    margin-top: 30px;
+}
+
+.digitalEdition{
+    margin-top: 80px;
+}
+
+.standard div, .digitalEdition div{
+    width: 45%;
+}
+
+#buy h1{
+    font-weight: normal;
+    font-size: 31px;
+}
+
+#buy h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#buy p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.console_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buy .console_holder h1{
+    font-size: 40px
+}
+
+.console_holder a{
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: #003791;
+    border: 2px solid #003791;
+}
+
+.console_holder a:hover{
+    background-color: #003791;
+    color: #FFF;
 }
